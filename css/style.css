@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800,900&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,9000&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	background-color: rgba(128, 128, 128, 0.342);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ______________________________________________________ */
+
+.challenge {
+}
+.challenge__container {
+max-width: 1184px;
+margin: auto;
+position: relative;
+}
+
+.challenge__image {
+}
+.challenge__img {
+max-width: 100%;
+}
+.challenge__box-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "Inter";
+color: #FFF;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.challenge__tittle {
+font-weight: 900;
+font-size: 72px;
+line-height: 1.06;
+text-align: center;
+width: 560px;
+}
+
+.challenge__tittle:not(:last-child) {
+margin-bottom: 32px;
+}
+
+.challenge__subtittle {
+font-size: 18px;
+line-height: 1.22;
+text-align: center;
+width: 360px;
+}
